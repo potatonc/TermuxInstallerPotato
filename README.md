@@ -15,6 +15,11 @@ wget https://github.com/potatonc/TermuxInstallerPotato/raw/master/install && chm
 ```
 wget https://github.com/potatonc/TermuxInstallerPotato/raw/master/install32 && chmod +x install32 && ./install32
 ```
+> if an error 32bit
+```
+unset LD_PRELOAD
+wget https://github.com/potatonc/TermuxInstallerPotato/raw/master/install32 && chmod +x install32 && ./install32
+```
 
 ### Usage
 > for install
