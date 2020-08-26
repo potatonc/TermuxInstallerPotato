@@ -1,5 +1,11 @@
 # Potato Installer
 
+### Check your processor
+```
+pkg install util-linux
+lscpu
+```
+
 ### Install
 **64bit**
 ```
