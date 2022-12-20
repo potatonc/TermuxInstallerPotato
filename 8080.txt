@@ -1,0 +1,8 @@
+#!/bin/bash
+# Credit By Potato
+clear
+
+screen -dm bash -c "potatohp -port 9090 -proxy 127.0.0.1:8080 -tunnel 127.0.0.1:143"
+screen -dm bash -c "potatohp -port 9080 -proxy 127.0.0.1:8080 -tunnel 127.0.0.1:444"
+screen -dm bash -c "potatohp -port 9088 -proxy 127.0.0.1:8080 -tunnel 127.0.0.1:1194"
+#exit 0
